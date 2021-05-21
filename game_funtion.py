@@ -116,7 +116,7 @@ def check_bullet_alien_collision(ai_settings, screen, stats, sb, ship, se,
             stats.score += ai_settings.alien_score * len(aliens)
             sb.prep_score()
             se.alien_sound.play()
-            se.alien_sound.set_volume(0.07)
+            se.alien_sound.set_volume(0.47)
         check_high_score(stats, sb)
     
     
@@ -141,7 +141,7 @@ def fire_bullet(ai_settings, screen, ship, se, bullets):
         new_bullet = Bullet(ai_settings, screen, ship)
         bullets.add(new_bullet)
         se.bullet_sound.play()
-        se.bullet_sound.set_volume(0.07)
+        se.bullet_sound.set_volume(0.47)
 
 def ship_hit(ai_settings, screen, stats, sb, ship, aliens, bullets):
    if stats.ships_left > 0:
