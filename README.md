@@ -2,7 +2,7 @@
 
 Hello User,<br>
 I have developed this Game with reference to Eric Matthes Python Crash Course.<br>
-This was made by me during my internship with Inmovidu ( 01st April 2021 - 23rd May 2021 )
+This was made by me during my internship with Inmovidu ( 01st April 2021 - 23rd May 2021 )<br>
 The Game however has been updated.<br>
 Below mentioned are some of the added features :- <br>
 1. The Ship moves in all directions (up, down, left, right).<br>
